@@ -11,7 +11,7 @@
     * I looked at the code in the playground section of the website which includes different templates for certain things like making [confetti](https://kaboomjs.com/play?example=confetti) show up when pressing space or clicking on the screen 
     * I tried setting up kaboom and testing `addConfetti` in my IDE  
 * Challenges
-    * I was really confused on how to make everything show up in my http-server because it would only show my code at first
+    * I was really confused on how to view my game. Instead of typing in `npm run dev` in my terminal, I typed `http-server` instead
         * Went to Kaboom [Installation](https://kaboomjs.com/doc/setup) part under tutorials and figured it out
 * Questions
     * How can I insert images in Kaboom?
