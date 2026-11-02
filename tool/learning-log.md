@@ -39,7 +39,8 @@
     * tinker with flappy template
     * see how the codes work on there
     * try to watch more videos
-
+    
+### X/X/X:
 
 <!-- 
 * Links you used today (websites, videos, etc)
