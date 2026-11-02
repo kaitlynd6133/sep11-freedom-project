@@ -20,8 +20,22 @@
     * Try tinkering with flappy template
     * Watch tutorial videos on Kaboom to learn more
     * Learn more codes that kaboom have
-### X/X/XX:
-* Text
+### 11/2/26:
+* I watched a video about [character movement](https://www.youtube.com/watch?v=n-q0pKGhxyw) 
+* Here are some things I learned:
+    * `loadSprite` loads a character sprite sheet
+    * learned different character movements
+    * use fuan.play to make the character be able to move
+    * use `speed` to adjust how fast the character will be going
+    * use `onKeyDown` to make the charcter move when pressing arrow keys
+* tried the same thing on my IDE and scanned through the code then tested it 
+* Challenges
+    * was extremely confused when watching the video
+        * replayed some parts of the video a couple of times to understand it
+* Next steps
+    * tinker with flappy template
+    * see how the codes work on there
+    * try to watch more videos
 
 
 <!-- 
