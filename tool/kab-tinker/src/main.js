@@ -84,23 +84,10 @@ player.onUpdate(() => {
 	// .angle is a property provided by rotate() component, here we're incrementing the angle by 120 degrees per second, dt() is the time elapsed since last frame in seconds
 	player.angle += 120 * dt()
 })
-const SPEED = 320
-
-onKeyDown("left", () => {
-    player.move(-SPEED, 0)
-})
-
-onKeyDown("right", () => {
-    player.move(SPEED, 0)
-})
-
-onKeyDown("up", () => {
-    player.move(0, -SPEED)
-})
-
-onKeyDown("down", () => {
-    player.move(0, SPEED)
-})
+onKeyDown("left", () => player.pos.x -= 5)
+onKeyDown("right", () => player.pos.x += 5)
+onKeyDown("up", () => player.pos.y -= 5)
+onKeyDown("down", () => player.pos.y += 5)
 // Add multiple game objects
 for (let i = 0; i < 3; i++) {
 
