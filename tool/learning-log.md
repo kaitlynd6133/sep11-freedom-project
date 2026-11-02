@@ -27,11 +27,14 @@
     * learned different character movements
     * use fuan.play to make the character be able to move
     * use `speed` to adjust how fast the character will be going
-    * use `onKeyDown` to make the charcter move when pressing arrow keys
+    * use `onKeysDown` to make the charcter move when pressing arrow keys
 * tried the same thing on my IDE and scanned through the code then tested it 
+* Replaced the bean sprite with a cat
 * Challenges
     * was extremely confused when watching the video
         * replayed some parts of the video a couple of times to understand it
+    * kept having two copies of the cat
+        * realized i put `playeradd` two times
 * Next steps
     * tinker with flappy template
     * see how the codes work on there
