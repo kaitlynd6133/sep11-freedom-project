@@ -12,7 +12,10 @@ const DEF_SPIN = [2, 8]
 const DEF_SATURATION = 0.7
 const DEF_LIGHTNESS = 0.6
 
-kaboom()
+kaboom({
+	background: [255, 214, 231],
+})
+
 
 function addConfetti(opt = {}) {
 	const sample = (s) => typeof s === "function" ? s() : s
@@ -77,6 +80,7 @@ const player = add([
 	pos(120, 80),     // pos() component gives it position, also enables movement
 	rotate(0),        // rotate() component gives it rotation
 	anchor("center"), // anchor() component defines the pivot point (defaults to "topleft")
+    scale(0.5),
 ])
 
 // .onUpdate() is a method on all game objects, it registers an event that runs every frame
