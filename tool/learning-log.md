@@ -40,7 +40,20 @@
     * see how the codes work on there
     * try to watch more videos
     
-### X/X/X:
+### 11/22/26:
+* I went on the [Kaboom](https://kaboomjs.com/play?example=add) website 
+    * I figured out how to change the background color and the size of my sprite by going on the [tween](https://kaboomjs.com/play?example=tween) page in their playground section
+    * After that I went on flappy and skim through the code
+    * I created another folder to tinker with the flappy code 
+    * I tinkered with a small section of the code
+        * I learned that `setGravity` controls how strongly an object falls
+* Challenges
+    * The code gave me a headache to look at and it was overwelming so i broke up a chunk of the code and only focused on one part
+    * At first I couldn't see my bean sprite falling then I realized at the end of the code, I have to add `go("game")` to start the game
+    * Next steps
+        * look at the next chunk of the flappy code and learn more about the functions of each code
+        * Maybe watch another video 
+
 
 <!-- 
 * Links you used today (websites, videos, etc)
